@@ -1,0 +1,131 @@
+Copyright 2016-17 TPRI-SYED AWASE KHIRNI 
+
+Advanced Angular Workshop Instructions 
+
+Please follow the instructions to install and setup the environment for advanced angular workshop
+
+I. Installing Nodejs 
+1. http://www.nodejs.org 
+2. Install the Long Term Support Version LTS. 
+3. Save on your windows downloads folder 
+4. run  your nodejs container 
+5. set System Environment Variables
+     => Control Panel 
+     => System Settings 
+     => Advanced Setting 
+     => System Environment Variable 
+     => Path : add the node.exe path in the front of your SYSTEM PATH 
+
+6. Post installation check on command line/powershell.
+    node -v 
+    npm -v (required version 5.0.x above), if below run this command. 
+         npm install -g npm 
+
+7. In the event you are getting errors, please get accurate previleges/role for installation.
+some banks block python/javascript for security reasons. 
+
+
+II. Installing Require.js 
+    
+    1. http://requirejs.org/
+    2. download the zip file and extract into a folder. 
+
+    alternatively (Project specific installation)
+    npm install requirejs --save 
+
+    alternatively( global installation)
+    npm install -g requirejs 
+
+
+    IF PROXY 
+    $ npm config set proxy http://<username>:<password>@<proxy-server-url>:<port>
+    $ npm config set https-proxy http://<username>:<password>@<proxy-server-url>:<port>
+
+III Installing GRUNT
+    global npm installation
+    1. npm install -g grunt grunt-cli 
+
+
+IV Installing GULP.js 
+    global npm installation 
+    1. npm install -g gulp gulp-cli 
+
+V  Installing Webpack 
+    global npm installation 
+    1. npm install -g webpack 
+
+
+VI ES6/TypeScript (Transpiler)
+    global npm installation 
+    1. npm install -g babel 
+    2. npm install -g traceur 
+
+
+VII Angular 4/5 
+
+   Angular -CLI Installation (Webpack AMD version) 
+   1. npm install -g @angular/cli 
+
+   Angular -git clone (SystemJS version) requires git installed. 
+   1. git clone http://github.com/angular/quickstart 
+
+
+VIII Bootstrap 
+    http://getbootstrap.com 
+
+IX Materialise css 
+   http://materialisecss.com 
+
+X Loopback /Express/MongoDB 
+    npm install -g loopback 
+    npm install -g express 
+    npm install -g mongoose (ORM driver)
+    npm install -g lodash (collection/utility library) 
+
+XI MongoDB http://mongodb.org  
+    download and install 
+    
+    starting your mongodb 
+    mongod --dbpath E:\mongodata\data --port 27017 --logpath E:\mongodata\mongod.log
+
+
+XII Angular redux 
+    ng2-redux github 
+    https://github.com/angular-redux/store
+
+
+XIII Scaffolded Angular templates 
+ http://github.com/awasekhirni/angular4 or http://github.com/awasekhirni/angular5 
+ Code play books 
+ http://github.com/awasekhirni/angular2
+
+ XIV LIVE JSON DATA Used 
+https://github.com/awasekhirni/jsondata
+
+XV MySQL Schema 
+http://github.com/awasekhirni/mysqlscripts
+
+XVI ECMA International 
+https://www.ecma-international.org/
+
+
+XVII: visual studio code editor 
+    Install extensions 
+    1. Angular v5 typescript snippets 
+    2. HTML5 templates
+    3. viewinBrowser
+    4. file path intellisense
+    5. vscode extensions 
+
+
+XVIII: Google Chrome Addons 
+1. Augury Angular Debugger 
+2. Postman Advanced REST Client
+
+
+
+
+
+
+
+
