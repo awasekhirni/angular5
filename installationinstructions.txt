@@ -122,6 +122,12 @@ XVIII: Google Chrome Addons
 1. Augury Angular Debugger 
 2. Postman Advanced REST Client
 
+XIX:Google chrome v8 engine 
+https://bugs.chromium.org/p/v8/issues/list 
+
+XX:YARN Installation 
+https://yarnpkg.com/lang/en/docs/install/ 
+
 
 
 
