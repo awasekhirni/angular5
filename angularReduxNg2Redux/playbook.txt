@@ -1,0 +1,48 @@
+npm install redux ng2-redux --save
+
+Playbook Scaffoling your Angular Redux Application Steps
+npm install --save redux redux-logger redux-observable
+npm install redux ng2-redux --save or current=> npm install "@angular-redux/store@^7"
+npm install --save "@angular-redux/form@latest" "@angular-redux/router@latest"
+
+run your application 
+ng serve
+
+
+1.Playbook=> Simple Counter Example using ng2-Redux 
+1. create store.ts  with IAppState Interface and stateProperty
+2. create store.ts =>function =>INITIAL_STATE, intializing the state of your application
+3. create store.ts =>function => rootReducer for matching the action.type 
+4. create action.ts => constants that define action.type 
+5. register ngRedux and ngReduxModule 
+import {NgRedux,NgReduxModule} from '@angular-redux/store';
+    register "NgRedux" and "NgReduxModule" in imports 
+
+6. Initialize NgRedux in AppModule using the AppModule Constructor to match to the reducer and the initialstate of your application. 
+constructor(ngRedux:NgRedux<IAppState>){
+    //initializing the ngRedux
+    ngRedux.configureStore(rootReducer,INITIAL_STATE);
+  }
+
+7. in the component (appcomponent.ts) import 
+import {NgRedux,select} from '@angular-redux/store';
+import { IAppState } from './store';
+import {INCREMENT, DECREMENT} from './actions';
+=> create increment and decrement methods which dispatch action.type 
+
+increment(){
+    this.ngRedux.dispatch({type:INCREMENT})
+  }
+
+  decrement(){
+    this.ngRedux.dispatch({type:DECREMENT})
+  }
+
+using @selector() decorator we can bind for asynchronous update of the state properties. 
+8. bind the state to the view app.component.html 
+<h1>{{title}}</h1>
+<p>Counter:{{counter|async}}</p>
+<button (click)="increment()">Increment</button>
+<button (click)="decrement()">Decrement</button>
+
+9. run your application using ng serve 
