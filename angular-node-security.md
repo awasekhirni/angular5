@@ -240,6 +240,21 @@ https://www.npmjs.com/package/documentation-habitlab
 
 
 Automation testing.[nodejs=> pally, testcafe,axe=core]
-
+https://www.npmjs.com/package/selenium-webdriver
+https://www.npmjs.com/package/sentinel-ast
+https://www.npmjs.com/package/walnutjs
+https://www.npmjs.com/package/kommando
+https://www.npmjs.com/package/e2e-helper
+https://www.npmjs.com/package/wendigo
+https://www.npmjs.com/package/pa11y
+https://www.npmjs.com/package/browserstack-webdriver
+https://www.npmjs.com/package/bot-tester
+https://www.npmjs.com/package/simple-headless-chrome
+https://www.npmjs.com/package/js-gardener
+https://www.npmjs.com/package/axe-core
+https://www.npmjs.com/package/browserstack
+https://www.npmjs.com/package/detox
+https://www.npmjs.com/package/nightwatch-cucumber
+https://www.npmjs.com/package/testcafe
 
 
