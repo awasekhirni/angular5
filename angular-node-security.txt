@@ -1,0 +1,68 @@
+
+AES- CRYPTO JS LIBRARY FOR ENCRYPTION AND DECRYPTION FOR SENDING DATA FROM SERVER TO THE CLIENT AND BACK
+https://www.npmjs.com/package/crypto-js 
+https://www.npmjs.com/package/node-aes-gcm
+https://www.npmjs.com/package/cryptico-js
+protection against dictionary attacks
+https://www.npmjs.com/package/easy-encryption
+
+mongoose cipher to encrypt the fileds that you select before saving them on the database
+https://www.npmjs.com/package/mongoose-cipher
+
+AngularJS Cryptography Library 
+https://github.com/gdi2290/angular-crypto
+
+A Native implementation of TLS in Javascript and tools to write crypto-based and network-heavy webapplications 
+https://github.com/digitalbazaar/forge 
+npm install node-forge
+npm install --save 
+npm run minify 
+
+exampleApp.service("CipherService", function() {
+
+    /*
+     * Encrypt a message with a passphrase or password
+     *
+     * @param    string message
+     * @param    string password
+     * @return   object
+     */
+    this.encrypt = function(message, password) {
+        var salt = forge.random.getBytesSync(128);
+        var key = forge.pkcs5.pbkdf2(password, salt, 4, 16);
+        var iv = forge.random.getBytesSync(16);
+        var cipher = forge.cipher.createCipher('AES-CBC', key);
+        cipher.start({iv: iv});
+        cipher.update(forge.util.createBuffer(message));
+        cipher.finish();
+        var cipherText = forge.util.encode64(cipher.output.getBytes());
+        return {cipher_text: cipherText, salt: forge.util.encode64(salt), iv: forge.util.encode64(iv)};
+    }
+
+    /*
+     * Decrypt cipher text using a password or passphrase and a corresponding salt and iv
+     *
+     * @param    string (Base64) cipherText
+     * @param    string password
+     * @param    string (Base64) salt
+     * @param    string (Base64) iv
+     * @return   string
+     */
+    this.decrypt = function(cipherText, password, salt, iv) {
+        var key = forge.pkcs5.pbkdf2(password, forge.util.decode64(salt), 4, 16);
+        var decipher = forge.cipher.createDecipher('AES-CBC', key);
+        decipher.start({iv: forge.util.decode64(iv)});
+        decipher.update(forge.util.createBuffer(forge.util.decode64(cipherText)));
+        decipher.finish();
+        return decipher.output.toString();
+    }
+
+});
+
+
+Use wireshark for debugging your network https streams, getting it from server to client and back. 
+
+Webcryptography 
+https://github.com/diafygi/webcrypto-examples 
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
+https://github.com/shershen08/ng2-web-cryptography
