@@ -66,3 +66,80 @@ Webcryptography
 https://github.com/diafygi/webcrypto-examples 
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
 https://github.com/shershen08/ng2-web-cryptography
+
+Nodejs => Security => Authentication and Authorization 
+Passport/OAuth => 480 strategies currently 
+https://www.npmjs.com/package/passport
+https://www.npmjs.com/package/passport-jwt
+https://www.npmjs.com/package/passport-strategy
+https://www.npmjs.com/package/passport-linkedin
+
+Nodejs => Session Management 
+node-session, history 
+https://www.npmjs.com/package/node-session
+https://www.npmjs.com/package/history
+https://www.npmjs.com/package/connect-history-api-fallback
+https://www.npmjs.com/package/history-ts
+
+Cross Site Request Forgery 
+csrf and csrf-token package in nodejs 
+https://www.npmjs.com/package/csrf
+https://www.npmjs.com/package/csrf-tokens
+https://www.npmjs.com/package/csrf-token
+
+
+
+
+OWASP security
+https://www.npmjs.com/package/juice-shop-ctf-cli
+https://www.npmjs.com/package/owasp-password-strength-test
+https://www.npmjs.com/package/owasp-threat-dragon-core
+https://www.npmjs.com/package/csp-headers
+https://www.npmjs.com/package/security
+https://www.npmjs.com/package/dependjs
+https://www.npmjs.com/package/secure-redirects
+
+
+File upload & download. [nodejs=>express-fileupload]
+https://www.npmjs.com/package/fileupload
+https://www.npmjs.com/package/express-fileupload
+https://www.npmjs.com/package/fileuploader
+
+Digital Signature. [Nodejs =>passport-docusign,sessionkeys]
+https://www.npmjs.com/package/docusign-esign
+https://www.npmjs.com/package/passport-digital-signature
+https://www.npmjs.com/package/xml-crypto-forked
+https://www.npmjs.com/package/xml-crypto
+https://www.npmjs.com/package/passport-docusign
+https://www.npmjs.com/package/session-keys
+https://www.npmjs.com/package/docusign-esign
+https://www.npmjs.com/package/passport-challenge
+
+SSL.[Nodejs=>ssl,xmlhttprequest-ssl,express-sslify,loopback-ssl]
+
+
+
+
+Scalability/Fault tolerance.
+15.View -  HTML/XML/XHTML.=> Rendering Templates (jade, ejs, swig) 
+
+
+16.SFTP connection - upload & download files..[nodejs=>sftp,ssh2-sftp-client,node-ssh,sftp-promises,ssh2,sftp-resolver-fs,ssh2-streams]
+
+Build & Release,Patching. [Grunt,Gulp,Webpack with git]
+
+Auditing & logging. [Nodejs=> auditing and logging]
+Monitoring node application.[Nodejs=>nodemon, express-status-monitor,monitoring,pm2]
+
+Charts & Graphs. [Angular+Highcharts, Angular +D3JS]
+
+Push Notifications.[Nodejs=> web-push]
+Email/SMS & any third party service integration.
+
+Cron jobs configuration/Scheduler [Nodejs=>cron,cron-parser,node-schedule,node-cron,pm2]
+ORM. [Nodejs =>Sequelize,mysql, mongoose]
+Documentation -  like Javadoc. [Nodejs=> documentation]
+Automation testing.[nodejs=> pally, testcafe,axe=core]
+
+
+
