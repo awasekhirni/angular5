@@ -1,5 +1,5 @@
 
-AES- CRYPTO JS LIBRARY FOR ENCRYPTION AND DECRYPTION FOR SENDING DATA FROM SERVER TO THE CLIENT AND BACK
+#AES- CRYPTO JS LIBRARY FOR ENCRYPTION AND DECRYPTION FOR SENDING DATA FROM SERVER TO THE CLIENT AND BACK
 https://www.npmjs.com/package/crypto-js 
 https://www.npmjs.com/package/node-aes-gcm
 https://www.npmjs.com/package/cryptico-js
@@ -9,10 +9,10 @@ https://www.npmjs.com/package/easy-encryption
 mongoose cipher to encrypt the fileds that you select before saving them on the database
 https://www.npmjs.com/package/mongoose-cipher
 
-AngularJS Cryptography Library 
+#AngularJS Cryptography Library 
 https://github.com/gdi2290/angular-crypto
 
-A Native implementation of TLS in Javascript and tools to write crypto-based and network-heavy webapplications 
+#A Native implementation of TLS in Javascript and tools to write crypto-based and network-heavy webapplications 
 https://github.com/digitalbazaar/forge 
 npm install node-forge
 npm install --save 
@@ -60,37 +60,41 @@ exampleApp.service("CipherService", function() {
 });
 
 
-Use wireshark for debugging your network https streams, getting it from server to client and back. 
+#Use wireshark for debugging your network https streams, getting it from server to client and back. 
 
-Webcryptography 
+#Webcryptography 
 https://github.com/diafygi/webcrypto-examples 
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
 https://github.com/shershen08/ng2-web-cryptography
 
-Nodejs => Security => Authentication and Authorization 
+#Nodejs => Security => Authentication and Authorization 
 Passport/OAuth => 480 strategies currently 
 https://www.npmjs.com/package/passport
 https://www.npmjs.com/package/passport-jwt
 https://www.npmjs.com/package/passport-strategy
 https://www.npmjs.com/package/passport-linkedin
 
-Nodejs => Session Management 
+#Nodejs => Session Management 
 node-session, history 
 https://www.npmjs.com/package/node-session
 https://www.npmjs.com/package/history
 https://www.npmjs.com/package/connect-history-api-fallback
 https://www.npmjs.com/package/history-ts
 
-Cross Site Request Forgery 
+#Cross Site Request Forgery 
 csrf and csrf-token package in nodejs 
 https://www.npmjs.com/package/csrf
 https://www.npmjs.com/package/csrf-tokens
 https://www.npmjs.com/package/csrf-token
 
+#cors cross origin resource sharing webbrowser security cross domain requests
+https://www.npmjs.com/package/cors
+https://www.npmjs.com/package/http-proxy-middleware
+https://www.npmjs.com/package/has-cors
+https://www.npmjs.com/package/corser
 
 
-
-OWASP security
+#OWASP security
 https://www.npmjs.com/package/juice-shop-ctf-cli
 https://www.npmjs.com/package/owasp-password-strength-test
 https://www.npmjs.com/package/owasp-threat-dragon-core
@@ -100,7 +104,7 @@ https://www.npmjs.com/package/dependjs
 https://www.npmjs.com/package/secure-redirects
 
 
-File upload & download. [nodejs=>express-fileupload]
+#File upload & download. [nodejs=>express-fileupload]
 https://www.npmjs.com/package/fileupload
 https://www.npmjs.com/package/express-fileupload
 https://www.npmjs.com/package/fileuploader
