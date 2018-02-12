@@ -212,8 +212,22 @@ https://www.npmjs.com/package/cron-emitter
 https://www.npmjs.com/package/agenda
 https://www.npmjs.com/package/croner
 https://www.npmjs.com/package/cron-master
+
+
+
 ORM. [Nodejs =>Sequelize,mysql, mongoose]
+https://www.npmjs.com/package/orm
+https://www.npmjs.com/package/sequelize
+https://www.npmjs.com/package/mongoose
+https://www.npmjs.com/package/waterline
+https://www.npmjs.com/package/waterline-criteria
+https://www.npmjs.com/package/redux-orm-angular
+https://www.npmjs.com/package/think-model
+
+
 Documentation -  like Javadoc. [Nodejs=> documentation]
+
+
 Automation testing.[nodejs=> pally, testcafe,axe=core]
 
 
