@@ -150,7 +150,32 @@ SFTP connection - upload & download files..[nodejs=>sftp,ssh2-sftp-client,node-s
 Build & Release,Patching. [Grunt,Gulp,Webpack with git]
 
 Auditing & logging. [Nodejs=> auditing and logging]
+https://www.npmjs.com/package/auditing
+https://www.npmjs.com/package/easy-audit
+https://www.npmjs.com/package/express-requests-logger
+https://www.npmjs.com/package/mongoose-diff-history
+https://www.npmjs.com/package/sequelize-version
+https://www.npmjs.com/package/sequelize-paper-trail
+https://www.npmjs.com/package/gulp-audit
+https://www.npmjs.com/package/loopback-audit-logger
+
+
 Monitoring node application.[Nodejs=>nodemon, express-status-monitor,monitoring,pm2]
+https://www.npmjs.com/package/monitoring
+https://www.npmjs.com/package/nodemon
+https://www.npmjs.com/package/newrelic
+https://www.npmjs.com/package/express-status-monitor
+https://www.npmjs.com/package/good
+https://www.npmjs.com/package/pm2
+https://www.npmjs.com/package/bugsnag-js
+https://www.npmjs.com/package/web-monitoring
+https://www.npmjs.com/package/event-loop-stats
+https://www.npmjs.com/package/phantomas
+https://www.npmjs.com/package/pg-monitor
+https://www.npmjs.com/package/pmx
+https://www.npmjs.com/package/easy-monitor
+https://www.npmjs.com/package/monitr
+https://www.npmjs.com/package/durations
 
 Charts & Graphs. [Angular+Highcharts, Angular +D3JS]
 
