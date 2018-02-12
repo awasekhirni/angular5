@@ -180,9 +180,38 @@ https://www.npmjs.com/package/durations
 Charts & Graphs. [Angular+Highcharts, Angular +D3JS]
 
 Push Notifications.[Nodejs=> web-push]
+https://www.npmjs.com/package/web-push
+https://www.npmjs.com/package/push.js
+https://www.npmjs.com/package/mpns
+https://www.npmjs.com/package/pushover-notifications
+https://www.npmjs.com/package/loopback-component-push
+https://www.npmjs.com/package/pusher-push-notifications-node
+https://www.npmjs.com/package/pushwoosh-client
+https://www.npmjs.com/package/ibm-push-notifications
+https://www.npmjs.com/package/push-node
+https://www.npmjs.com/package/loopback-push-notification
+https://www.npmjs.com/package/redux-push
+
 Email/SMS & any third party service integration.
+https://www.npmjs.com/package/email
+https://www.npmjs.com/package/email-templates
+https://www.npmjs.com/package/mailgun-js
+https://www.npmjs.com/package/isemail
+https://www.npmjs.com/package/heml
+#####  https://www.npmjs.com/package/mjml
 
 Cron jobs configuration/Scheduler [Nodejs=>cron,cron-parser,node-schedule,node-cron,pm2]
+https://www.npmjs.com/package/cron
+https://www.npmjs.com/package/node-schedule
+https://www.npmjs.com/package/cron-parser
+https://www.npmjs.com/package/node-cron
+https://www.npmjs.com/package/pm2
+https://www.npmjs.com/package/cronstrue
+https://www.npmjs.com/package/crontab
+https://www.npmjs.com/package/cron-emitter
+https://www.npmjs.com/package/agenda
+https://www.npmjs.com/package/croner
+https://www.npmjs.com/package/cron-master
 ORM. [Nodejs =>Sequelize,mysql, mongoose]
 Documentation -  like Javadoc. [Nodejs=> documentation]
 Automation testing.[nodejs=> pally, testcafe,axe=core]
